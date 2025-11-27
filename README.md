@@ -1,36 +1,36 @@
 # emial_classifier
-'''
+```
 A machine learning model that automatically classifies emails into four categories: Spam, Services, Professional, and Personal.
 Overview
 This project uses Logistic Regression with TF-IDF text vectorization to classify emails based on their content. The model analyzes email text and predicts which category it belongs to.
-'''
+```
 # Categories
-'''
+```
 Spam: Unwanted promotional or junk emails
 Services: Service-related communications
 Professional: Work or business-related emails
 Personal: Personal correspondence
-'''
+```
 # Requirements
-'''
+```
 python
 pandas
 numpy
 scikit-learn
-'''
+```
 # Install dependencies
-'''
+```
 pip install pandas numpy scikit-learn
-'''
+```
 # Dataset
-'''
+```
 The model expects a CSV file (email.csv) with the following structure:
 
 text: Email content
 label: Category label (0-3 representing the four categories)
-'''
+```
 # Example Output
-'''
+```
 There is any infinity val:False
 recall_score:0.9875
  accuracy_score:98.55%
@@ -51,7 +51,7 @@ This is to inform you that TCS is conducting the TCS HackQuest Season 10 contest
 The type of mail:: promotion
 email perpos: This is a promotional offer...
 The type of mail: 0
-'''
+```
 
 
 
